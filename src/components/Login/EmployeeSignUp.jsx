@@ -18,7 +18,7 @@ const EmployeeSignUp = () => {
     setMessage(null);
     setMessageType(null);
     try {
-      const response = await fetch("http://localhost:7070/api/auth/employee/signup", {
+      const response = await fetch("http://localhost:8080/api/auth/employee/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(credentials),

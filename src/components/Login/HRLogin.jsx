@@ -416,7 +416,7 @@ const HRLogin = ({ onLogin }) => {
     setMessage(null);
     setMessageType(null);
     try {
-      const response = await fetch("http://localhost:7070/api/auth/hr/login", {
+      const response = await fetch("http://localhost:8080/api/auth/hr/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(credentials),
