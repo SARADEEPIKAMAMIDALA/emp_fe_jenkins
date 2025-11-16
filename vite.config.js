@@ -10,5 +10,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/emp-frontend/',   // 👈 REQUIRED for WAR deployment in Tomcat
+  base: '/emp-frontend-final/',   // 👈 REQUIRED for WAR deployment in Tomcat
 })
